@@ -27,3 +27,7 @@ for(let idx of arr)
     }
 }
 console.log(checkVal);
+
+let ravi : String = 'ravi sharma';
+
+console.log(ravi,"hello");
