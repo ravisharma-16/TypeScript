@@ -87,3 +87,97 @@ let check4 = (val : unknown) : void =>
 let y : undefined = undefined;
 let x : null = null;
 
+//                             ARRAY
+
+// const nums: number[] = [1, 2, 3];
+// const names: string[] = ["a", "b"];
+// const numss : (number | string)[] = [1,2,3,4,"hello"]; 
+// let num = [1,2,3,4,"ravi"];
+// console.log(num)
+
+//                            2D
+// const grid: number[][] = [
+//     [1, 2, 3],
+//     [4, 5, 6],
+// ];
+// console.log(grid);
+
+
+
+// let num : Number[] = [1,2,3,4,5,]
+// console.log(num) 
+// num.push(10)
+// console.log(num) 
+// num.push('hello_ji')
+// console.log(num) 
+
+
+
+// const fun = (num : number[]) : number[] =>
+// {
+//     return num;
+// }
+
+// console.log(fun([2,3,4,5]))
+
+
+
+// function t(): number | string { return 1; }
+// function u(): string | null { return null; }
+// function v(): "a" | "b" | "c" { return "a"; }  // literal union
+
+
+// const fun = (a : number,b : string) : {a : number; b : string} =>
+// {
+//     return {a,b};
+// }
+
+// console.log(fun(23,"hello"))
+
+
+// const fun = (a : number,b : string) : object =>
+// {
+//     return {a,b};
+// }
+
+// console.log(typeof(fun(23,"hello")))
+
+
+// const user = [
+//     {
+//     id : 1,
+//     name : 'ravi',
+//     collage : 'its'
+//     },
+//     {
+//     id : 2,
+//     name : 'ratu',
+//     collage : 'its'
+//     },
+// ];
+// user.push({id : 4,name:"palak",collage:"rkgit"});
+// console.log(user);
+
+//                            USER DEFINE OBJECT ARRAY
+
+// interface user  {
+//     id: number;
+//     name: string;
+// }
+// const users : user[] = [
+//     {
+//     id : 1,
+//     name : 'ravi',
+//     },
+//     {
+//     id : 2,
+//     name : 'ratu',
+//     },
+// ];
+// users.push({id : 4,name:"palak",});
+// console.log(users);
+
+
+//                                TUPLE
+
+let tuple_val : [number,boolean,string,]
